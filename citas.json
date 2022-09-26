@@ -1,4 +1,6 @@
-[
+
+<script>
+var quotes = [
   {"_id":"5a6ce86e2af929789500e7d7","texto":"Simplicity is prerequisite for reliability.","autor":"Edsger W. Dijkstra"},
   {"_id":"5a6ce86d2af929789500e7ca","texto":"The computing scientist’s main challenge is not to get confused by the complexities of his own making.","autor":"Edsger W. Dijkstra"},
   {"_id":"5a6ce86e2af929789500e7d9","texto":"A program is like a poem: you cannot write a poem without writing it. Yet people talk about programming as if it were a production process and measure „programmer productivity“ in terms of „number of lines of code produced“. In so doing they book that number on the wrong side of the ledger: We should always refer to „the number of lines of code spent“.","autor":"Edsger W. Dijkstra"},
@@ -500,4 +502,9 @@
   {"_id":"5acca81fe01bb40004668819","texto":"The ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code.","autor":"Robert C. Martin"},
   {"_id":"5b579bb420e9780004ba9ac3","texto":"There's nothing more permanent than a temporary hack.","autor":"Kyle Simpson"},
   {"_id":"5b6d73d6b3f09f0004d9275f","texto":"As numbers are reduced to the simplest principles, like 0 and 1, a wonderful order is apparent throughout.","autor":"Gottfried Wilhelm Leibniz","source":"EXPLANATION OF BINARY ARITHMETIC"}
-]
+];
+
+for (const quote of quotes) {
+  console.log(quote['texto']); 
+}
+</script>

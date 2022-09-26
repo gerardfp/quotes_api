@@ -505,7 +505,7 @@ var quotes = [
 ];
 
 for (const quote of quotes) {
-  docuement.innerHTML += `<p>${quote['texto']}<br>${quote['autor']}`;
+  document.body.innerHTML += `<p>${quote['texto']}<br><strong>${quote['autor']}</strong>`;
   console.log(quote['texto']); 
 }
 </script>
